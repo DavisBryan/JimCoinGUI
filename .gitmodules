@@ -1,0 +1,6 @@
+[submodule "JimCoinGUIWallet"]
+	path = JimCoinGUIWallet
+	url = https://github.com/Rob-Otman/JimCoin.git
+[submodule "JimCoin"]
+	path = JimCoin
+	url = https://github.com/Rob-Otman/JimCoin.git
