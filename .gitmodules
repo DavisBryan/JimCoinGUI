@@ -4,3 +4,6 @@
 [submodule "JimCoin"]
 	path = JimCoin
 	url = https://github.com/Rob-Otman/JimCoin.git
+[submodule "cryptonote"]
+	path = cryptonote
+	url = https://github.com/Rob-Otman/cryptonote.git
