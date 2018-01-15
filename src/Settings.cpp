@@ -140,6 +140,10 @@ bool Settings::isEncrypted() const {
   return m_settings.contains(OPTION_ENCRYPTED) ? m_settings.value(OPTION_ENCRYPTED).toBool() : false;
 }
 
+QString Settings::getVersion() const {
+  return GIT_REVISION;
+}
+
 QStringList Settings::getMiningPoolList() const {
   QStringList res;
   if (m_settings.contains(OPTION_MINING_POOLS)) {
