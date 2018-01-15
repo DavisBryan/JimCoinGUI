@@ -40,6 +40,7 @@ public:
   QString getAddressBookFile() const;
   QStringList getMiningPoolList() const;
   bool isEncrypted() const;
+  QString getVersion() const;
   bool isStartOnLoginEnabled() const;
 #ifdef Q_OS_WIN
   bool isMinimizeToTrayEnabled() const;
