@@ -39,6 +39,7 @@ set(VERSION "")
 configure_file("cryptonote/src/version.h.in" "version.h")
 configure_file("src/CryptoNoteWalletConfig.h.in" "CryptoNoteWalletConfig.h")
 
+add_definitions(-DVERSION=\"${CN_VERSION}\")
 add_definitions(-DGIT_REVISION=\"${GIT_REVISION}\")
 
 set(CMAKE_AUTOMOC ON)
