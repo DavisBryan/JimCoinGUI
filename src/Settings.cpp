@@ -141,7 +141,7 @@ bool Settings::isEncrypted() const {
 }
 
 QString Settings::getVersion() const {
-  return GIT_REVISION;
+  return VERSION;
 }
 
 QStringList Settings::getMiningPoolList() const {
